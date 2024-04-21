@@ -1,0 +1,155 @@
+/* Set initial background color */
+
+.profile-card {
+  width: 265px;
+  height: 540px;
+  top: 545px;
+  left: 562px;
+  padding: 29px 31px 26px 36px;
+  gap: 40px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #fff7e2;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  box-shadow: 0px 4px 12.5px 0px #00000012;
+}
+.profile-image {
+  background-image: url("https://s3-alpha-sig.figma.com/img/5af8/78e5/09217e175d69b8cfd3da49cb2a8a6437?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FRkxIUxyvW2RatMzBt~P6NZo1YRjHdFXOzZmnEF0Sfzp0JQrIokQJJBqtA~FMDouN0H2v4y42oqp--x1XueS4SOeBCZ4eAMq9-bU9fyhAmZ83lbN0nCzMasn5rqC40xuBIPcd8EoguUSlVNhqAx-27Lix9d4bbx4cf28MeD0zD~INTfEgcQNEn5ZeTyq-c8z0seXwA1rHimsyeUQDOr60~iUsmNLQxJS1zeH1LHnY5~5jZiFpYzAmapv6y5jhPERcbVkbQ3qXlsVpePFBDRoYgXUsvJXGXcbVTJsakGF-ZUuArOus6RBJXahlKmpyOmjm-htXMpmFTl1xHEXGLC1Ig__");
+  width: 142px;
+  height: 400px;
+  left: 70px;
+  gap: 0px;
+  opacity: 0px;
+  background-size: cover; /* Set the background size to cover */
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-center;
+  padding-bottom: 0px;
+}
+
+.rating {
+  background: linear-gradient(180deg, #0b0b0b 0%, rgba(11, 11, 11, 0.79) 100%);
+  width: Hug (70px) px;
+  height: Fixed (28px) px;
+  top: 126px;
+  left: 117px;
+  padding: 4px 12px 4px 12px;
+  gap: 12px;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0px;
+  font-family: DINPro-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #ffffff;
+  width: 43px;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+.star {
+  color: yellow;
+  width: Hug (70px) px;
+}
+.doctor-profile-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile-name {
+  width: 260px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #2e2f2e;
+  text-align: center;
+}
+.text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  color: #646665;
+}
+.details {
+  padding-left: 15px;
+}
+.buttons-consult {
+  display: flex;
+  flex-direction: row;
+}
+
+.cunsultation-button {
+  gap: 4px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  margin-left: 10px;
+  border: 1px solid #3a643b63;
+  background-color: transparent;
+}
+.type {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #3a643b;
+}
+.appoint-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.button-3 {
+  width: Fixed (284px) px;
+  height: Fixed (42px) px;
+  padding: 15px 78px 15px 78px;
+  gap: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  border: 1px solid #3a643b;
+  font-weight: 550;
+}
+.button-2 {
+  margin-top: 10px;
+  width: Fixed (284px) px;
+  height: Fixed (42px) px;
+  padding: 15px 78px 15px 78px;
+  gap: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-weight: 550;
+  background-color: #3a643b;
+  border: 1px solid #3a643b;
+}

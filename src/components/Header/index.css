@@ -1,0 +1,100 @@
+/* Header.css */
+
+.Header-container {
+  display: flex;
+  font-family: roboto;
+  justify-content: center;
+  min-height: 22px;
+  min-height: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff7e2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.menu-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-container li {
+  margin-right: 20px;
+}
+
+.button {
+  background-color: transparent;
+  color: #474747;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.button-1 {
+  background-color: transparent;
+  color: #3a643b;
+}
+
+.signup-button {
+  width: Fixed (125px);
+  height: Fixed (60px);
+  margin: 10px;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 11px, 37px, 16px, 37px;
+  gap: 10px;
+  background-color: #fff7e2;
+  border: 1px;
+  border-color: #3a643b;
+  border-style: solid;
+  font-size: 14px;
+  font-weight: bold;
+
+  color: #474747;
+}
+.login-button {
+  width: Fixed (165px);
+  height: Fixed (60px);
+  margin: 10px;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px;
+  padding: 11px, 37px, 16px, 37px;
+  gap: 10px;
+  background-color: #3a643b;
+  border: 1px;
+  border-color: #3a643b;
+  border-style: solid;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  transform: scale(1.1); /* Scale the button on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}
+.website-logo {
+  width: 259px;
+  height: 49px;
+}
+
+.signup-button:hover {
+  background-color: #fff7e2;
+  background-color: transparent;
+  transform: scale(1.2); /* Scale the button on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+}

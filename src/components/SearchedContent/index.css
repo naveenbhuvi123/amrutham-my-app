@@ -1,0 +1,43 @@
+/* index.css */
+
+/* Container styles */
+.content-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+/* Item styles */
+.content {
+  background-color: #eaf2ea;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 600;
+  margin-right: 25px;
+  margin-bottom: 10px; /* Add space between items */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .content {
+    font-size: 10px; /* Decrease font size for smaller screens */
+    margin-right: 15px; /* Decrease margin for smaller screens */
+    padding: 8px; /* Decrease padding for smaller screens */
+  }
+}
+
+@media (max-width: 479px) {
+  .content {
+    font-size: 8px; /* Further decrease font size for mobile devices */
+    margin-right: 10px; /* Further decrease margin for mobile devices */
+    padding: 6px; /* Further decrease padding for mobile devices */
+  }
+}
