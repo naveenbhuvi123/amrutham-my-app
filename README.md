@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+ project Name :- Amrutam Pharmaceuticals Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here's a simplified procedure for the Amrutam Pharmaceuticals Assignment React-based static application, presented in points:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the Repository:
+Clone the project repository to your local machine using git clone https://github.com/naveenbhuvi123/amrutham-my-app.git.
+Install Dependencies:
+Navigate into the project directory (cd amrutham-my-app) and install the dependencies using npm install.
+Start the Development Server:
+Run npm start to start the development server. The application should now be accessible at http://localhost:3000.
+Explore the Project Structure:
+Familiarize yourself with the project structure, including the public, src, and possibly other folders.
+Understand the Main Components:
+Look for the main components in the src/components folder, which are likely to include the header, footer, and other reusable components.
+Review the Pages:
+Check the src/pages folder for components specific to different pages of the application.
+Check Routing Configuration:
+If the application uses React Router, review the routing configuration in the src/App.js file or a separate routing file.
+Inspect State Management (if applicable):
+If the application uses state management (e.g., Redux), review the setup and usage of the state management library.
+Explore Styling Approach:
+Look for how styles are applied, whether using CSS, CSS modules, or a CSS-in-JS solution like styled-components.
+Test the Application (optional):
+If tests are included, run them using the appropriate command (e.g., npm test) to ensure the application behaves as expected.
+Make Changes (if needed):
+If you need to make changes to the application, do so in the appropriate files (e.g., components, pages) based on your requirements.
+Commit Changes:
+Once you've made your changes, commit them to your fork of the repository using git commit -am 'Your commit message'.
+Push Changes:
+Push your changes to your fork on GitHub using git push origin master (or the name of your branch).
+Create a Pull Request (PR):
+If you want to contribute your changes back to the original repository, create a pull request from your fork on GitHub.
+Review and Merge (by project maintainers):
+The project maintainers will review your pull request and merge it into the main branch if it meets the project's guidelines.
+Stay Updated:
+Keep your local repository updated with the latest changes from the main repository by pulling changes (git pull origin master).
+This procedure provides a basic overview of how to work with the Amrutam Pharmaceuticals Assignment React-based static application. Specific details and steps may vary based on the project's actual structure and requirements.
