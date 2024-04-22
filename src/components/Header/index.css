@@ -42,7 +42,8 @@
 }
 
 .button:hover {
-  background-color: #2980b9;
+  transform: scale(1.1); /* Scale the button on hover */
+  transition: transform 0.2s;
 }
 
 .button-1 {
@@ -65,7 +66,8 @@
   border-style: solid;
   font-size: 14px;
   font-weight: bold;
-
+  transform: scale(1.1); /* Scale the button on hover */
+  transition: transform 0.2s;
   color: #474747;
 }
 .login-button {
@@ -85,7 +87,7 @@
   font-weight: bold;
   color: #ffffff;
   transform: scale(1.1); /* Scale the button on hover */
-  transition: background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+  transition: transform 0.3s;
 }
 .website-logo {
   width: 259px;
@@ -96,5 +98,5 @@
   background-color: #fff7e2;
   background-color: transparent;
   transform: scale(1.2); /* Scale the button on hover */
-  transition: background-color 0.3s, transform 0.3s; /* Add smooth transitions */
+  transition: transform 0.3s; /* Add smooth transitions */
 }

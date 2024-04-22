@@ -1,0 +1,101 @@
+.Doctor-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.tick {
+  color: blue;
+}
+.specialization {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  width: 109px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  color: #3a643b;
+}
+.num {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #212529;
+}
+.head {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.8px;
+  width: 65.82px;
+  height: 16.8px;
+  gap: 0px;
+  opacity: 0px;
+  color: #3a643b;
+  text-align: center;
+}
+.bottom-section {
+  padding: 20px;
+}
+.profile {
+  margin-right: 70px;
+  font-weight: 600;
+}
+.star {
+  color: yellow;
+}
+
+.Doctor-profile-Info {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: #fffbf2;
+  background-size: cover;
+  height: 151px;
+  gap: 20px;
+  border: 1px solid transparent;
+  opacity: 1;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.image {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+
+.button-2 {
+  margin-top: 10px;
+  width: 180px;
+  height: 42px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #3a643b;
+  color: #ffffff;
+  font-weight: 550;
+  background-color: #3a643b;
+}
+.name {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  width: 162px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+}

@@ -21,6 +21,7 @@ const MainPageSection = () => {
       languageKnown: "Speaks: English, Hindi, Marathi",
       rating: "4.5",
     },
+
     {
       id: 2,
       imageUrl:

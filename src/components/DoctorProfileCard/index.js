@@ -18,10 +18,10 @@ const DoctorProfileCard = (props) => {
   } = props.doctorDetails;
 
   return (
-    <li className="profile-card">
+    <li className="profile-card-2">
       {" "}
       {/* Wrapping the card in a list item */}
-      <div className="profile-image">
+      <div className="profile-image_1">
         {/* Displaying the rating with the star icon */}
         <p className="rating">
           {rating} <TbStarFilled className="star" /> {/* Using the star icon */}
@@ -29,19 +29,19 @@ const DoctorProfileCard = (props) => {
       </div>
       <div className="profile-info">
         {/* Displaying the doctor's name */}
-        <h1 className="profile-name">{name}</h1>
+        <h1 className="profile-name_1">{name}</h1>
 
-        <div className="details">
+        <div className="details_1">
           {/* Displaying the doctor's gender with an icon */}
-          <p className="text">
+          <p className="text_1">
             <LuPill /> {gender}
           </p>
           {/* Displaying the doctor's experience with an icon */}
-          <p className="text">
+          <p className="text_1">
             <FaGraduationCap /> {experience}
           </p>
           {/* Displaying the languages known by the doctor with an icon */}
-          <p className="text">
+          <p className="text_1">
             <BiCommentDetail /> {languageKnown}
           </p>
         </div>
@@ -69,9 +69,9 @@ const DoctorProfileCard = (props) => {
         {/* Displaying appointment buttons */}
         <div className="appoint-buttons">
           {/* Button to view the doctor's profile */}
-          <button className="button-3">View Profile</button>
+          <button className="button_3">View Profile</button>
           {/* Button to book a consultation with the doctor */}
-          <button className="button-2">Book Consultation</button>
+          <button className="button_2">Book Consultation</button>
         </div>
       </div>
     </li>

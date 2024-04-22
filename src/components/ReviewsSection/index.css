@@ -1,0 +1,96 @@
+.review-image {
+  width: 60px;
+  height: 60px;
+  top: 8px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+}
+.review-section {
+  width: Hug (473px) px;
+  height: Hug (65px) px;
+  gap: 114px;
+  opacity: 0px;
+}
+.text-contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  margin-left: 25px;
+}
+.patient-name {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  text-align: left;
+  width: 193px;
+  height: 27px;
+  gap: 0px;
+  opacity: 0px;
+  color: #2f2f2f;
+}
+.treat-done {
+  width: 171px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+}
+.problem-held {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.82px;
+  text-align: left;
+  width: 171px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  color: #939393;
+}
+.time {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 119px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+  color: #979797;
+}
+.stars {
+  width: 18.67px;
+  height: 18.05px;
+  top: 1.69px;
+  left: 1.67px;
+  gap: 0px;
+  opacity: 0px;
+  color: #f79624;
+}
+.rating-stars {
+  padding-left: 35px;
+}
+.review-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review {
+  padding-left: 35px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 475px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  color: #2e2f2e;
+}
